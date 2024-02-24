@@ -1,0 +1,25 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "Apple II Libraries",
+    "description": "Library package containing custom Apple II items",
+    "description_full": "A collection of custom symbols and footprints related to Apple II mainboards and peripherals.",
+    "identifier": "com.github.markadev.KiCad-AppleII",
+    "type": "library",
+    "author": {
+        "name": "Mark Aikens",
+        "contact": {
+            "web": "https://github.com/markadev"
+        }
+    },
+    "maintainer": {
+        "name": "Mark Aikens",
+        "contact": {
+            "web": "https://github.com/markadev"
+        }
+    },
+    "license": "CC-BY-SA-4.0",
+    "resources": {
+        "GitHub": "https://github.com/markadev/KiCad-AppleII"
+    },
+    "versions": []
+}
