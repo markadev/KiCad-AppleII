@@ -21,5 +21,11 @@
     "resources": {
         "GitHub": "https://github.com/markadev/KiCad-AppleII"
     },
-    "versions": []
+    "versions": [
+	    {
+            "version": "0.1",
+            "status": "development",
+            "kicad_version": "7"
+        }
+	]
 }
