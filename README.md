@@ -2,7 +2,7 @@
 
 ## Introduction
 
-KiCad-AppleII is a collection of KiCad symbols, footprints, and other items that are
+KiCad-AppleII is a library pack containing KiCad symbols, footprints, and other items that are
 useful or very specific to Apple II computers or peripherals.
 
 
@@ -13,12 +13,11 @@ useful or very specific to Apple II computers or peripherals.
 
 ## How to install
 
-The library should be installed using KiCad's Plugin & Content Manager:
+This library pack should be installed using KiCad's Plugin & Content Manager (PCM):
 
- 1. Download the latest library release .zip file from [the releases page](https://github.com/markadev/KiCad-AppleII/releases).
- 2. Open KiCad and in the main project window click on the "Plugin and Content Manager"
-    icon to open it.
- 3. Click the "Install from file..." button and choose the .zip file that you downloaded.
+ 1. Download the latest zip file from [the releases page](https://github.com/markadev/KiCad-AppleII/releases).
+ 2. Open KiCad and in the main project window click on the "Plugin and Content Manager" icon to open it.
+ 3. Click the "Install from file..." button and select the zip file that you downloaded.
  4. KiCad will unzip the files and automatically add all the symbols & footprints into
     your global library paths.
 
