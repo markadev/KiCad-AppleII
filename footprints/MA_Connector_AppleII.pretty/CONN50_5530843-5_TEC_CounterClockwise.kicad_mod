@@ -107,9 +107,9 @@
   (pad "48" thru_hole circle (at 5.08 -4.8514) (size 1.6002 1.6002) (drill 1.0922) (layers "*.Cu" "*.Mask") (tstamp e55cc482-2362-4593-86f7-045f871d0588))
   (pad "49" thru_hole circle (at 2.54 -4.8514) (size 1.6002 1.6002) (drill 1.0922) (layers "*.Cu" "*.Mask") (tstamp 1d3292e3-fe6e-4e55-8438-7d5de10b0497))
   (pad "50" thru_hole circle (at 0 -4.8514) (size 1.6002 1.6002) (drill 1.0922) (layers "*.Cu" "*.Mask") (tstamp 0798b9f1-1e69-46d3-b6f9-dcfa85d47838))
-  (model "../../3dmodels/CONN50_5530843-5-TEC.wrl"
+  (model "../../3dmodels/CONN50_5530843-5-TEC.step"
     (offset (xyz 30.5 2.5 15.5))
-    (scale (xyz 0.394 0.394 0.394))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )
