@@ -234,7 +234,7 @@
     (property "Value" "Bus_Apple_II_Computer_Side" (at 17.78 -41.91 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PCM_MA_Connector_AppleII:CONN50_5530843-5_TEC_CounterClockwise" (at 0 27.94 0)
+    (property "Footprint" "PCM_MA_Connector_AppleII:EDAC_395-050-520-201_CounterClockwise" (at 0 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://archive.org/details/Apple_II_Mini_Manual/page/n37/mode/2up" (at 0 0 0)

@@ -35,7 +35,7 @@ and if you go to select a custom footprint then you should see additional footpr
 ## Additional Credits
 
  - The Apple II bus symbol by Nikolay Nikolov is slightly modified from the one in [their pull request](https://gitlab.com/kicad/libraries/kicad-symbols/-/merge_requests/3693)
- - The `CONN50_5530843-5_TEC` footprint & 3D model is from DigiKey
+ - The `EDAC_395-050-520-201` 3D model is from EDAC (through DigiKey)
 
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)  
