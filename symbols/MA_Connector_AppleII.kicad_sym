@@ -6,7 +6,7 @@
     (property "Value" "Bus_Apple_II_Card_Side" (at 15.24 -41.91 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PCM_MA_Connector_AppleII:Bus_Edge" (at 0 27.94 0)
+    (property "Footprint" "PCM_MA_Connector_AppleII:Peripheral_Bus_Edge" (at 0 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://archive.org/details/Apple_II_Mini_Manual/page/n37/mode/2up" (at 0 0 0)
