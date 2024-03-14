@@ -8,7 +8,7 @@ useful or very specific to Apple II computers or peripherals.
 
 ## Requirements
 
- - KiCad version 7.0 or later
+ - KiCad version 8.0 or later
 
 
 ## How to install
