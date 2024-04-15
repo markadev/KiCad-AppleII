@@ -252,10 +252,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at 12.7 0 180)
 				(length 2.54)
-				(name "SYNC/TESTPIN"
+				(name "TESTPIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -269,6 +269,7 @@
 						)
 					)
 				)
+				(alternate "~{SYNC}" output line)
 			)
 			(pin bidirectional line
 				(at -12.7 38.1 0)
@@ -309,7 +310,7 @@
 			(pin input line
 				(at -12.7 -35.56 0)
 				(length 2.54)
-				(name "RDY"
+				(name "~{RDY}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -576,10 +577,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 10.16 -2.54 180)
-				(length 2.54) hide
-				(name "N.C."
+			(pin input line
+				(at 12.7 -2.54 180)
+				(length 2.54)
+				(name "TESTPIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -593,6 +594,8 @@
 						)
 					)
 				)
+				(alternate "COLORREF" output line)
+				(alternate "M2B0" output line)
 			)
 			(pin output clock
 				(at 12.7 -35.56 180)
@@ -651,7 +654,7 @@
 			(pin input line
 				(at -12.7 -30.48 0)
 				(length 2.54)
-				(name "USER_1"
+				(name "USER1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -665,6 +668,8 @@
 						)
 					)
 				)
+				(alternate "~{M2SEL}" output line)
+				(alternate "µSYNC" output clock)
 			)
 			(pin bidirectional line
 				(at -12.7 33.02 0)
@@ -1224,10 +1229,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin open_collector line
 				(at 12.7 0 180)
 				(length 2.54)
-				(name "SYNC/TESTPIN"
+				(name "TESTPIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1241,6 +1246,7 @@
 						)
 					)
 				)
+				(alternate "~{SYNC}" input line)
 			)
 			(pin bidirectional line
 				(at -12.7 38.1 0)
@@ -1281,7 +1287,7 @@
 			(pin open_collector line
 				(at -12.7 -35.56 0)
 				(length 2.54)
-				(name "RDY"
+				(name "~{RDY}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1548,10 +1554,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 10.16 -2.54 180)
-				(length 2.54) hide
-				(name "N.C."
+			(pin open_collector line
+				(at 12.7 -2.54 180)
+				(length 2.54)
+				(name "TESTPIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1565,6 +1571,8 @@
 						)
 					)
 				)
+				(alternate "COLORREF" input line)
+				(alternate "M2B0" input line)
 			)
 			(pin input clock
 				(at 12.7 -35.56 180)
@@ -1623,7 +1631,7 @@
 			(pin open_collector line
 				(at -12.7 -30.48 0)
 				(length 2.54)
-				(name "USER_1"
+				(name "USER1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1637,6 +1645,8 @@
 						)
 					)
 				)
+				(alternate "~{M2SEL}" input line)
+				(alternate "µSYNC" input clock)
 			)
 			(pin bidirectional line
 				(at -12.7 33.02 0)
