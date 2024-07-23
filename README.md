@@ -2,9 +2,7 @@
 
 ## Introduction
 
-KiCad-AppleII is a library pack containing KiCad symbols, footprints, and other items that are
-useful or very specific to Apple II computers or peripherals.
-
+KiCad-AppleII is a library package containing KiCad symbols, footprints, and other components that are specific or highly relevant to Apple II computers. It also includes resources for Apple II clones like the [Microprofessor-II](https://en.wikipedia.org/wiki/Microprofessor_II) and various peripherals
 
 ## Requirements
 
@@ -31,6 +29,8 @@ and if you go to select a custom footprint then you should see additional footpr
  - `PCM_MA_Connector_AppleII`
  - `PCM_MA_Logo_AppleII`
 
+For MPF-II bus connector select following footprint:
+ - `Peripheral_MPFII_Bus_Edge`
 
 ## Additional Credits
 
