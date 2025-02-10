@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "PCM_MA_Connector_AppleII:Peripheral_Bus_Edge"
-			(at 0 27.94 0)
+			(at -0.254 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -307,7 +307,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -12.7 -35.56 0)
 				(length 2.54)
 				(name "RDY"
@@ -451,7 +451,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -12.7 -25.4 0)
 				(length 2.54)
 				(name "~{NMI}"
@@ -487,7 +487,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at -12.7 -20.32 0)
 				(length 2.54)
 				(name "~{IRQ}"
