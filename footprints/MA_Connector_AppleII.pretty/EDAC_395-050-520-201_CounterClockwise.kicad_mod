@@ -1,7 +1,7 @@
 (footprint "EDAC_395-050-520-201_CounterClockwise"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "EDAC 395-050-520-201 Card Edge Connector - counter-clockwise pin numbering")
 	(tags "395-050-520-201 apple ii")
@@ -29,18 +29,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "61210673-ba1f-498b-8468-7a5fafb4b266")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -50,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -193,7 +183,7 @@
 			(width 0.508)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "b97c495a-c065-4e86-9424-9b2c39f557a6")
 	)
@@ -661,7 +651,8 @@
 		(remove_unused_layers no)
 		(uuid "0798b9f1-1e69-46d3-b6f9-dcfa85d47838")
 	)
-	(model "../../3dmodels/EDAC_395-050-520-201.step"
+	(embedded_fonts no)
+	(model "../../../3dmodels/com_github_markadev_KiCad-AppleII/MA_Connector_AppleII.3dshapes/EDAC_395-050-520-201.step"
 		(offset
 			(xyz -11.85 -2.15 0)
 		)

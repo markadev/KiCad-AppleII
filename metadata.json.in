@@ -25,7 +25,7 @@
         {
             "version": "@@VERSION@@",
             "status": "development",
-            "kicad_version": "8"
+            "kicad_version": "9"
         }
     ]
 }
