@@ -6,7 +6,7 @@ KiCad-AppleII is a library package containing KiCad symbols, footprints, and oth
 
 ## Requirements
 
- - KiCad version 8.0 or later
+ - KiCad version 10.0 or later
 
 
 ## How to install
@@ -29,8 +29,6 @@ and if you go to select a custom footprint then you should see additional footpr
  - `PCM_MA_Connector_AppleII`
  - `PCM_MA_Logo_AppleII`
 
-For MPF-II bus connector select following footprint:
- - `Peripheral_MPFII_Bus_Edge`
 
 ## Additional Credits
 
